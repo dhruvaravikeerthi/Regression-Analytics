@@ -1,112 +1,88 @@
-# 🏠 Bangalore House Price Predictor
+# Regression Analytics
 
-A machine learning web application that predicts real estate prices using **Linear Regression** and explains how each feature influences the prediction.
-
----
-
-## 🚀 Project Overview
-
-This project demonstrates how machine learning can be used not just for prediction, but for **interpretability and decision-making**.
-
-Users can:
-- Explore a built-in Bangalore housing dataset
-- Train their own regression model
-- Visualize feature importance
-- Understand model accuracy using R² and MAE
+## 🌐 Live Demo
+👉 https://student-performance-regression-system-hcrazxxsrti2bvq95tyhi8.streamlit.app/
 
 ---
 
-## 🧠 Key Features
+## 📌 Overview
 
-### 📊 1. Price Prediction
-Predict house prices using:
-- Area (sqft)
-- BHK
-- Number of bathrooms
+Regression Analytics is a machine learning-based project designed to predict continuous student performance scores using key academic and behavioral factors.
+
+The system applies regression techniques to learn patterns from historical student data and estimate outcomes for new inputs. It is deployed as an interactive web application using Streamlit, allowing users to experiment with inputs and observe real-time predictions.
 
 ---
 
-### 📈 2. Model Explainability
-The app shows:
-- Regression equation
-- Feature contribution to prediction
-- Visual importance charts
+## 🧠 How It Works
+
+The model is trained on a structured dataset containing student-related attributes such as study habits, attendance, sleep patterns, and stress levels.
+
+During training, the regression algorithm learns relationships between these inputs and the final performance score. Once trained, the model is saved and used inside a Streamlit web app for real-time predictions.
+
+In simple terms, the system learns from past data and uses that learning to estimate student performance for new cases.
 
 ---
 
-### 📂 3. Custom Dataset Training
-Users can:
-- Upload CSV files
-- Select features dynamically
-- Train their own Linear Regression model
-- Evaluate performance instantly
+## 📊 Dataset Information
+
+The project uses a structured dataset of student academic and behavioral features. The data was cleaned and preprocessed before training to improve model performance.
+
+The regression model learns from this dataset and applies those learned patterns to predict unseen inputs.
 
 ---
 
-### 📉 4. Model Evaluation
-- R² Score (model accuracy)
-- Mean Absolute Error (prediction error)
-- Actual vs Predicted visualization
+## ⚙️ Features
+
+- Predicts continuous student performance scores  
+- Interactive Streamlit web interface  
+- Real-time user input prediction  
+- Simple and clean UI design  
+- Lightweight and fast model inference  
 
 ---
 
-## ⚙️ Tech Stack
+## 🧠 Machine Learning Approach
 
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas
-- NumPy
-- Matplotlib
+- Supervised Learning (Regression)  
+- Model trained on structured student dataset  
+- Learns relationships between input features and output score  
+- Trained model saved and reused for deployment  
 
 ---
 
-## 🧠 Machine Learning Concept
+## 🛠️ Tech Stack
 
-### Linear Regression
-A supervised learning algorithm that finds the best linear relationship between input features and output price.
-
-Equation form:
-
-Price = a + b₁x₁ + b₂x₂ + ... + bₙxₙ
+Python, Streamlit, Pandas, NumPy, Scikit-learn, Matplotlib
 
 ---
 
-## 📊 Evaluation Metrics
+## 📁 Project Structure
 
-- **R² Score** → How well the model explains variation in price
-- **MAE** → Average prediction error
+- `app.py` → Streamlit application  
+- `train_model.py` → Model training script  
+- `model.pkl` → Trained regression model  
+- `requirements.txt` → Dependencies  
 
 ---
 
-## 🎯 What This Project Demonstrates
+## 🎯 Purpose
 
-- End-to-end ML pipeline
-- Data preprocessing & training
-- Model evaluation
-- Feature interpretation
-- Interactive web deployment
+The goal of this project is to demonstrate how regression-based machine learning can be used in education to predict student performance in a data-driven and interpretable way.
+
+It shows the complete pipeline from data processing and model training to deployment as a live web application.
 
 ---
 
 ## 🚀 Future Improvements
 
-- Add non-linear models (Random Forest, XGBoost)
-- Location-based price prediction
-- SHAP explainability
-- Real Kaggle dataset integration
-- Deployment on cloud (Render / Streamlit Cloud)
+- Improve prediction accuracy with advanced regression models  
+- Add more features for deeper analysis  
+- Enhance visualizations and UI design  
+- Compare multiple regression algorithms  
+- Add user authentication and dashboards  
 
 ---
 
 ## 👨‍💻 Author
 
-Dhruva Ravi Keerthi  
-Grade 12 CBSE (2026–27)  
-Aspiring Data Science & Machine Learning Student
-
----
-
-## ⭐ Key Insight
-
-This project demonstrates that machine learning is not just about prediction — but about understanding **why predictions happen**.
+Dhruva Ravi Keerthi
