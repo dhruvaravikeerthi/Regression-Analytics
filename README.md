@@ -33,13 +33,10 @@ The application has two main modes:
 
 ### 📁 Custom Dataset Mode
 - Users upload their own dataset  
-- Select:
-  - Target variable  
-  - Input features  
-- The system:
-  - Trains a regression model  
-  - Generates predictions  
-  - Displays evaluation metrics  
+- The system processes the dataset and automatically learns relationships between variables  
+- A regression model is trained dynamically on the uploaded data  
+- The model identifies patterns influencing the target variable  
+- Predictions and evaluation metrics are generated in real time  
 
 ---
 
@@ -47,9 +44,11 @@ The application has two main modes:
 
 - 📈 Real-time regression modeling  
 - 📂 Upload and analyze custom datasets  
-- 🧮 Dynamic feature selection  
-- 📊 Visual outputs and metrics  
-- 🧠 Model evaluation (R², predictions)  
+- 🧠 Automatic pattern recognition from data  
+- 📊 Visual outputs and evaluation metrics  
+- ⚡ Fast and interactive predictions
+-    feature contribution graphs
+-     Actual vs Predicted graphs 
 
 ---
 
