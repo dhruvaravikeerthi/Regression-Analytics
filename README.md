@@ -1,4 +1,4 @@
-#  Regression Analytics Engine
+# Machine learning using regression
 
 #  Live Demo(App link)  
  https://student-performance-regression-system-hcrazxxsrti2bvq95tyhi8.streamlit.app/
