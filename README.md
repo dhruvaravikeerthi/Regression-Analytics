@@ -52,8 +52,8 @@ The project demonstrates how regression-based machine learning models can be con
 ##  Future Improvements
 
 - Add additional regression models (Ridge, Lasso, Random Forest)  
-- Improve dataset validation and preprocessing pipeline  
-- Enhance UI/UX design  
+- Improve dataset validation and preprocessing pipeline
+- Enhance the user interface. 
 - Enable export of predictions and reports  
 
 ##  What I Learned
